@@ -1,3 +1,11 @@
+# Fork Notes
+
+This fork combines https://github.com/dbdexter-dev/sdrpp_radiosonde and https://github.com/AlexandreRouma/SDRPlusPlus
+to produce builds that include the sdrpp_radiosonde decoder module (via use of git submodules).
+
+The latest master branch builds are available in the nightly release at https://github.com/jethrocarr/SDRPlusPlus/releases/tag/nightly
+
+
 # SDR++, The bloat-free SDR software<br>
 
 ![Screenshot](https://i.imgur.com/Ter2MQJ.png)
