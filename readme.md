@@ -1,8 +1,22 @@
 # Fork Notes
 
-This fork combines https://github.com/dbdexter-dev/sdrpp_radiosonde and https://github.com/AlexandreRouma/SDRPlusPlus
-to produce builds that include the sdrpp_radiosonde decoder module (via use of git submodules).
+This fork takes https://github.com/AlexandreRouma/SDRPlusPlus and adds various third party modules that do not ship
+as part of the original project.
 
+Additional modules:
+- https://github.com/dbdexter-dev/sdrpp_radiosonde for radiosonde decodding
+- https://github.com/darauble/bookmark_manager an alternative bookmark manager
+
+
+## Updating the fork
+
+To update the base SDRPlusPlus repo, raise a PR pulling in the latest upstream changes from master, to this repo's master.
+
+To update the additional modules, update the version that the submodule has pinned to, and prepare a PR. All the additional modules
+are included via the use of Git submodules.
+
+
+## Installing this fork
 The latest master branch builds are available in the nightly release at https://github.com/jethrocarr/SDRPlusPlus/releases/tag/nightly
 
 
