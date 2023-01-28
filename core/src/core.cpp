@@ -290,6 +290,7 @@ int sdrpp_main(int argc, char* argv[]) {
     core::configManager.conf["modules"][modCount++] = "scanner.so";
     
     core::configManager.conf["modules"][modCount++] = "radiosonde_decoder.so";
+    core::configManager.conf["modules"][modCount++] = "bookmark_manager.so";
 #endif
 
     // Fix missing elements in config
