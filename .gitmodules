@@ -2,3 +2,6 @@
 	path = decoder_modules/sdrpp_radiosonde
 	url = https://github.com/dbdexter-dev/sdrpp_radiosonde.git
 	branch = dev
+[submodule "misc_modules/bookmark_manager"]
+	path = misc_modules/bookmark_manager
+	url = https://github.com/darauble/bookmark_manager.git
