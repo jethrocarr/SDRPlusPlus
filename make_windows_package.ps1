@@ -66,6 +66,8 @@ cp "C:/Program Files/codec2/lib/libcodec2.dll" sdrpp_windows_x64/
 
 cp $build_dir/decoder_modules/meteor_demodulator/Release/meteor_demodulator.dll sdrpp_windows_x64/modules/
 
+cp $build_dir/decoder_modules/sdrpp_radiosonde/Release/radiosonde_decoder.dll sdrpp_windows_x64/modules/
+
 cp $build_dir/decoder_modules/radio/Release/radio.dll sdrpp_windows_x64/modules/
 
 
@@ -79,6 +81,8 @@ cp $build_dir/misc_modules/recorder/Release/recorder.dll sdrpp_windows_x64/modul
 cp $build_dir/misc_modules/rigctl_server/Release/rigctl_server.dll sdrpp_windows_x64/modules/
 
 cp $build_dir/misc_modules/scanner/Release/scanner.dll sdrpp_windows_x64/modules/
+
+cp $build_dir/misc_modules/bookmark_manager/Release/bookmark_manager.dll sdrpp_windows_x64/modules/
 
 
 # Copy supporting libs
