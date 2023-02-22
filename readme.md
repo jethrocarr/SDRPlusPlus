@@ -13,7 +13,11 @@ Additional modules:
 To update the base SDRPlusPlus repo, raise a PR pulling in the latest upstream changes from master, to this repo's master.
 
 To update the additional modules, update the version that the submodule has pinned to, and prepare a PR. All the additional modules
-are included via the use of Git submodules.
+are included via the use of Git submodules. The following command will update all the submodules to the latest upstream version.
+
+    $ git submodule update --remote
+
+Then commit the changes in a PR.
 
 
 ## Installing this fork
